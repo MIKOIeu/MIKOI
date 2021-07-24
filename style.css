@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
-#about {
+#main {
     text-align: center;
-    color: white;
-    height: 60vh;
-    background: rgb(244,35,78);
-    background: linear-gradient(266deg, rgba(244,35,78,1) 0%, rgba(167,8,30,1) 35%, rgba(244,35,78,1) 100%);
+    height: 100vh;
+    width: 100%;
+    background-image: url("bg.jpg");
 }
 
 h1 {
@@ -22,111 +22,20 @@ h1 {
 }
 
 p {
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
-.aboutpadding {
-    padding: 4%;
-}
-
-#technologies {
-    height: 40vh;
-    color: black;
-    text-align: center;
+.about {
+    padding: 15%;
 }
 
 ion-icon {
-    padding: 2%;
-    font-size: 5vw;
-}
-
-h2 {
+    padding: 1% 0.3%;
     font-size: 2vw;
-}
-
-.technologiespadding {
-    padding: 3%;
-}
-
-#projects {
-    height: 100vh;
-    color: black;
-    text-align: center;
-}
-
-.projectspadding {
-    padding: 0 5%;
-}
-
-.borders {
-    padding: 2%;
-    display: inline-block;
-    flex: wrap;
-    justify-content: center;
-}
-
-.border {
-    border: 2px solid black;
-    border-radius: 4px;
-    width: 25vw;
-    text-align: left;
-    padding: 2%;
-    margin: 6%;
-}
-
-h3 {
-    font-size: 2vw;
-}
-
-h4 {
-    font-size: 1vw;
-}
-
-span {
-    font-size: 0.8vw; 
-}
-
-#socials    {
-    color: white;
-    text-align: center;
-    height: 30vh;
-    background: rgb(244,35,78);
-    background: linear-gradient(266deg, rgba(244,35,78,1) 0%, rgba(167,8,30,1) 35%, rgba(244,35,78,1) 100%);
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-h5 {
-    font-size: 2vw; 
-}
-
-#socials ion-icon {
-    cursor: pointer;
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 
-#socials ion-icon:hover {
-    color: #7B7D7D;
+ion-icon:hover {
+    color: #5F6A6A;
 }
-
-
-/* scrollbar */
-
-::-webkit-scrollbar{
-    width: 13px;
-    height: 13px;
-    }
-::-webkit-scrollbar-thumb{
-    background: #A8A6A8;
-    border-radius: 0px;
-    }
-::-webkit-scrollbar-thumb:hover{
-    background: #878587;
-    }
-::-webkit-scrollbar-track{
-    background: #FFFFFF;
-    border: 2px solid #B7BBBD;
-    border-radius: 0px;
-    box-shadow: inset 0px 0px 0px 0px #F0F0F0;
-    }
