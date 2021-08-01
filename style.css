@@ -40,7 +40,7 @@ ion-icon:hover {
     color: #5F6A6A;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .about {
         padding: 25%;
     }
