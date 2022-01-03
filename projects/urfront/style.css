@@ -236,3 +236,75 @@ p {
     border: 3px solid #AAB7B8;
 }
 
+@media only screen and (max-width: 1000px) {
+
+    .image {
+        display: none;
+    }
+
+    .secondimage {
+        display: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #main {
+        min-height: 100vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    .content {
+        padding: 35vh 0;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 3.8vh;
+    }
+
+    h3 {
+        font-size: 3vh;
+    }
+
+    #about {
+        display: none;
+    }
+
+    #why {
+        min-height: 100vh;
+        display: block;
+        justify-content: center;
+    }
+
+    .blockbox {
+        display: block;
+    }
+
+    .mobilepadding {
+        padding: 20vh 0;
+    }
+    h4 {
+        font-size: 3.8vh;
+    }
+
+    #contact {
+        min-height: 100vh;
+    }
+
+    .contentbox {
+        margin: 35vh 0;
+        width: 100vw;
+    }
+
+    #footer {
+        width: 100%;
+        position: absolute;
+    }
+
+    .discordbttn {
+        width: 35vw;
+    }
+}
