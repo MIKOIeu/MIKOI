@@ -236,7 +236,7 @@ p {
     border: 3px solid #AAB7B8;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) and (min-width: 0) {
 
     .image {
         display: none;
@@ -306,5 +306,92 @@ p {
 
     .discordbttn {
         width: 35vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1001px) {
+
+    .image {
+        display: none;
+    }
+
+    .secondimage {
+        display: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #main {
+        min-height: 100vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    .content {
+        padding: 35vh 0;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 3.8vh;
+    }
+
+    h3 {
+        font-size: 3vh;
+    }
+
+    #about {
+        display: none;
+    }
+
+    #why {
+        min-height: 50vh;
+        display: block;
+        justify-content: center;
+    }
+
+    .blockbox {
+        display: flex;
+    }
+
+    .mobilepadding {
+        padding: 10vh 0;
+    }
+    h4 {
+        font-size: 3.8vh;
+    }
+
+    #contact {
+        height: 50vh;
+    }
+
+    .contentbox {
+        margin: 0;
+        width: 50vw;
+    }
+
+    #footer {
+        width: 100%;
+        position: absolute;
+    }
+
+    .discordbttn {
+        width: 10vw;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1201px) {
+    img {
+        width: 50vw;
+        height: 50vh;
+    }
+    .image {
+        padding-left: 75px;
+    }
+
+    .discordbttn {
+        width: 10vw;
     }
 }
