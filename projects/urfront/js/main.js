@@ -42,4 +42,3 @@ sr.reveal('.contentbox' , {
     distance: "-500px"
 });
 
-alert("Strona nie jest narazie przystosowana pod urzadzenia mobilne!")
